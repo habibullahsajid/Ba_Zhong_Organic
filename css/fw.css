@@ -15,7 +15,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 
 /*--- Margin ---*/
 .m-0{
-	margin:0px;
+	margin:0;
 }
 .m-5{
 	margin:5px;
@@ -36,7 +36,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	margin:30px;
 }
 .m-t-0{
-	margin-top:0px;
+	margin-top:0;
 }
 .m-t-5{
 	margin-top:5px;
@@ -120,7 +120,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	margin-top:200px;
 }
 .m-l-0{
-	margin-left:0px;
+	margin-left:0;
 }
 .m-l-5{
 	margin-left:5px;
@@ -186,7 +186,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	margin-left:150px;
 }
 .m-r-0{
-	margin-right:0px;
+	margin-right:0;
 }
 .m-r-5{
 	margin-right:5px;
@@ -252,7 +252,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	margin-right:150px;
 }
 .m-b-0{
-	margin-bottom:0px;
+	margin-bottom:0;
 }
 .m-b-5{
 	margin-bottom:5px;
@@ -407,7 +407,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 }
 /*--- Padding ---*/
 .p-0{
-	padding:0px;
+	padding:0;
 }
 .p-2{
 	padding:2px;
@@ -461,7 +461,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding:100px;
 }
 .p-t-0{
-	padding-top:0px;
+	padding-top:0;
 }
 .p-t-5{
 	padding-top:5px;
@@ -500,7 +500,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding-top:60px;
 }
 .p-l-0{
-	padding-left:0px;
+	padding-left:0;
 }
 .p-l-5{
 	padding-left:5px;
@@ -551,7 +551,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding-left:100px;
 }
 .p-r-0{
-	padding-right:0px;
+	padding-right:0;
 }
 .p-r-5{
 	padding-right:5px;
@@ -590,7 +590,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding-right:60px;
 }
 .p-b-0{
-	padding-bottom:0px;
+	padding-bottom:0;
 }
 .p-b-5{
 	padding-bottom:5px;
@@ -900,7 +900,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	border-style:solid;
 }
 .no-radius{
-	border-radius:0px!important;
+	border-radius:0 !important;
 }
 .no-border{
 	border:none!important;
@@ -970,10 +970,10 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 @media (max-width: 1200px){
 /*--- Margin ---*/
 .m-md-0{
-	margin:0px;
+	margin:0;
 }
 .m-t-md-0{
-	margin-top:0px;
+	margin-top:0;
 }
 .m-t-md-5{
 	margin-top:5px;
@@ -1012,7 +1012,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	margin-top:60px;
 }
 .m-l-md-0{
-	margin-left:0px;
+	margin-left:0;
 }
 .m-l-md-5{
 	margin-left:5px;
@@ -1051,7 +1051,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	margin-left:60px;
 }
 .m-r-md-0{
-	margin-right:0px;
+	margin-right:0;
 }
 .m-r-md-5{
 	margin-right:5px;
@@ -1090,7 +1090,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	margin-right:60px;
 }
 .m-b-md-0{
-	margin-bottom:0px;
+	margin-bottom:0;
 }
 .m-b-md-5{
 	margin-bottom:5px;
@@ -1130,7 +1130,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 }
 /*--- Padding ---*/
 .p-md-0{
-	padding:0px;
+	padding:0;
 }
 .p-md-5{
 	padding:5px;
@@ -1169,7 +1169,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding:60px;
 }
 .p-t-md-0{
-	padding-top:0px;
+	padding-top:0;
 }
 .p-t-md-5{
 	padding-top:5px;
@@ -1208,7 +1208,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding-top:60px;
 }
 .p-l-md-0{
-	padding-left:0px;
+	padding-left:0;
 }
 .p-l-md-5{
 	padding-left:5px;
@@ -1247,7 +1247,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding-left:60px;
 }
 .p-r-md-0{
-	padding-right:0px;
+	padding-right:0;
 }
 .p-r-md-5{
 	padding-right:5px;
@@ -1286,7 +1286,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding-right:60px;
 }
 .p-b-md-0{
-	padding-bottom:0px;
+	padding-bottom:0;
 }
 .p-b-md-5{
 	padding-bottom:5px;
@@ -1466,10 +1466,10 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 @media (min-width : 768px) and (max-width: 992px){
 /*--- Margin ---*/
 .m-s-0{
-	margin:0px;
+	margin:0;
 }
 .m-t-sm-0{
-	margin-top:0px;
+	margin-top:0;
 }
 .m-t-sm-5{
 	margin-top:5px;
@@ -1508,7 +1508,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	margin-top:60px;
 }
 .m-l-sm-0{
-	margin-left:0px;
+	margin-left:0;
 }
 .m-l-sm-5{
 	margin-left:5px;
@@ -1547,7 +1547,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	margin-left:60px;
 }
 .m-r-sm-0{
-	margin-right:0px;
+	margin-right:0;
 }
 .m-r-sm-5{
 	margin-right:5px;
@@ -1586,7 +1586,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	margin-right:60px;
 }
 .m-b-sm-0{
-	margin-bottom:0px;
+	margin-bottom:0;
 }
 .m-b-sm-5{
 	margin-bottom:5px;
@@ -1626,7 +1626,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 }
 /*--- Padding ---*/
 .p-sm-0{
-	padding:0px;
+	padding:0;
 }
 .p-sm-5{
 	padding:5px;
@@ -1665,7 +1665,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding:60px;
 }
 .p-t-sm-0{
-	padding-top:0px;
+	padding-top:0;
 }
 .p-t-sm-5{
 	padding-top:5px;
@@ -1704,7 +1704,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding-top:60px;
 }
 .p-l-sm-0{
-	padding-left:0px;
+	padding-left:0;
 }
 .p-l-sm-5{
 	padding-left:5px;
@@ -1743,7 +1743,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding-left:60px;
 }
 .p-r-sm-0{
-	padding-right:0px;
+	padding-right:0;
 }
 .p-r-sm-5{
 	padding-right:5px;
@@ -1821,7 +1821,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding-right:120px
 }
 .p-b-sm-0{
-	padding-bottom:0px;
+	padding-bottom:0;
 }
 .p-b-sm-5{
 	padding-bottom:5px;
@@ -2043,10 +2043,10 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 @media (max-width: 768px){
 /*--- Margin ---*/
 .m-xs-0{
-	margin:0px;
+	margin:0;
 }
 .m-t-xs-0{
-	margin-top:0px;
+	margin-top:0;
 }
 .m-t-xs-5{
 	margin-top:5px;
@@ -2085,7 +2085,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	margin-top:60px;
 }
 .m-l-xs-0{
-	margin-left:0px;
+	margin-left:0;
 }
 .m-l-xs-5{
 	margin-left:5px;
@@ -2124,7 +2124,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	margin-left:60px;
 }
 .m-r-xs-0{
-	margin-right:0px;
+	margin-right:0;
 }
 .m-r-xs-5{
 	margin-right:5px;
@@ -2163,7 +2163,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	margin-right:60px;
 }
 .m-b-xs-0{
-	margin-bottom:0px;
+	margin-bottom:0;
 }
 .m-b-xs-5{
 	margin-bottom:5px;
@@ -2203,7 +2203,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 }
 /*--- Padding ---*/
 .p-xs-0{
-	padding:0px;
+	padding:0;
 }
 .p-xs-5{
 	padding:5px;
@@ -2242,7 +2242,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding:60px;
 }
 .p-t-xs-0{
-	padding-top:0px;
+	padding-top:0;
 }
 .p-t-xs-5{
 	padding-top:5px;
@@ -2281,7 +2281,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding-top:60px;
 }
 .p-l-xs-0{
-	padding-left:0px;
+	padding-left:0;
 }
 .p-l-xs-5{
 	padding-left:5px;
@@ -2320,7 +2320,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding-left:60px;
 }
 .p-r-xs-0{
-	padding-right:0px;
+	padding-right:0;
 }
 .p-r-xs-5{
 	padding-right:5px;
@@ -2359,7 +2359,7 @@ I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CU
 	padding-right:60px;
 }
 .p-b-xs-0{
-	padding-bottom:0px;
+	padding-bottom:0;
 }
 .p-b-xs-5{
 	padding-bottom:5px;

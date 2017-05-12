@@ -92,7 +92,7 @@
 }
 
 .uc-offcanvas-container > div::-webkit-scrollbar {
-    width: 0px;
+    width: 0;
 }
 
 .uc-offcanvas-left .uc-offcanvas-container {

@@ -41,7 +41,7 @@ $(function () {
 
     window.onresize = function () {
         height_w();
-    }
+    };
     //cart dropdown
     $('.cart .dropdown-menu').on('click', function (e) {
         e.stopPropagation();
@@ -162,7 +162,6 @@ jQuery(function ($) {
         $('#toDown').on('click', function (e) {
             e.preventDefault();
             $('html, body').animate({scrollTop: 800}, 600);
-            ;
         });
 
     }());
@@ -177,16 +176,16 @@ jQuery(function ($) {
             animation: "slide",
             controlNav: "thumbnails",
             directionNav: false
-        })
+        });
 
         // Navigation
         $('.prev').on('click', function () {
-            $('.testimonialSlider').flexslider('prev')
+            $('.testimonialSlider').flexslider('prev');
             return false;
-        })
+        });
 
         $('.next').on('click', function () {
-            $('.testimonialSlider').flexslider('next')
+            $('.testimonialSlider').flexslider('next');
             return false;
         })
     }());
