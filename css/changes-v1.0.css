@@ -1,0 +1,64 @@
+.thumbnail {
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.business-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    text-align: center;
+    color: #fff;
+}
+
+.business-overlay p {
+    margin: 0 20px 10px;
+}
+
+.ig-services .caption h3 {
+    text-align: center;
+}
+
+.ig-services .thumbnail {
+    border: 0px;
+    padding: 0;
+}
+
+.ig-news .caption h3:hover {
+    opacity: 0.7;
+    display: inline-block;
+}
+
+.caption h3 a {
+    color: #313131;
+}
+
+.thumbnail:hover .business-overlay {
+    height: 100%;
+    padding: 20% 0 0;
+    border: none;
+}
+
+.business-image {
+}
+
+.fix-height-305 {
+    height: 360px;
+    overflow: hidden;
+}
+
+.padding-0 {
+    padding-right: 0;
+    padding-left: 0;
+}
