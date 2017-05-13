@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
     <!-- Fw -->
     <link rel="stylesheet" type="text/css" href="css/fw.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/changes-v1.0.css">
     <!-- Plugins -->
     <link href="js/slick/slick-theme.css">
 
@@ -37,130 +38,125 @@
 <div class="container m-t-95">
     <nav class="navbar m-menu navbar-default navbar-fixed-top">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!--<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""><h2><span style="color: white">ba zhong Group of Companies</span></h2></a>-->
                 <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
             </div>
-
-            <ul class="nav-cta hidden-xs">
-                <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i
-                        class="fa fa-search"></i></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <div class="head-search">
-                                <form role="form">
-                                    <!-- Input Group -->
-                                    <div class="input-group">
-                                        <input type="text" class="form-control"
-                                               placeholder="Type Something">
-                                        <span class="input-group-btn">
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav-cta hidden-xs">
+                    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i
+                            class="fa fa-search"></i></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="head-search">
+                                    <form role="form">
+                                        <!-- Input Group -->
+                                        <div class="input-group">
+                                            <input type="text" class="form-control"
+                                                   placeholder="Type Something">
+                                            <span class="input-group-btn">
 			                                  <button type="submit" class="btn btn-primary">Search</button>
 			                                </span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right main-nav">
+                        <li class="dropdown active">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">Home</a>
+                        </li>
+                        <li><a href="about.html">About us</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">Products</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="product_grid_sidebar.html">Product grid sidebar</a></li>
+                                <li><a href="product_list_sidebar.html">Product list sidebar</a></li>
+                                <li><a href="product_grid.html">Product grid</a></li>
+                                <li><a href="product_list.html">Product list</a></li>
+                                <li><a href="product_detail.html">Product detail</a></li>
+                                <li><a href="product_cart.html">Product cart</a></li>
+                                <li><a href="product_checkout.html">Product checkout</a></li>
+                                <li><a href="product_wishlist.html">Product wishlist</a></li>
+                                <li><a href="product_compare.html">Product compare</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog_detail.html">Blog detail</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">Pages</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="register.html">Register</a></li>
+                                <li><a href="error_404.html">Error_404</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown m-menu-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Features
+                            <span><i class="fa fa-angle-down"></i></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="m-menu-content">
+                                        <ul class="col-sm-3">
+                                            <li class="dropdown-header">Widget Haeder</li>
+                                            <li><a href="#">Awesome Features</a></li>
+                                            <li><a href="#">Clean Interface</a></li>
+                                            <li><a href="#">Available Possibilities</a></li>
+                                            <li><a href="#">Responsive Design</a></li>
+                                            <li><a href="#">Pixel Perfect Graphics</a></li>
+                                        </ul>
+                                        <ul class="col-sm-3">
+                                            <li class="dropdown-header">Widget Haeder</li>
+                                            <li><a href="#">Awesome Features</a></li>
+                                            <li><a href="#">Clean Interface</a></li>
+                                            <li><a href="#">Available Possibilities</a></li>
+                                            <li><a href="#">Responsive Design</a></li>
+                                            <li><a href="#">Pixel Perfect Graphics</a></li>
+                                        </ul>
+                                        <ul class="col-sm-3">
+                                            <li class="dropdown-header">Widget Haeder</li>
+                                            <li><a href="#">Awesome Features</a></li>
+                                            <li><a href="#">Clean Interface</a></li>
+                                            <li><a href="#">Available Possibilities</a></li>
+                                            <li><a href="#">Responsive Design</a></li>
+                                            <li><a href="#">Pixel Perfect Graphics</a></li>
+                                        </ul>
+                                        <ul class="col-sm-3">
+                                            <li class="dropdown-header">Widget Haeder</li>
+                                            <li><a href="#">Awesome Features</a></li>
+                                            <li><a href="#">Clean Interface</a></li>
+                                            <li><a href="#">Available Possibilities</a></li>
+                                            <li><a href="#">Responsive Design</a></li>
+                                            <li><a href="#">Pixel Perfect Graphics</a></li>
+                                        </ul>
                                     </div>
-                                </form>
-                            </div>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
-                </li>
-            </ul>
-
-            <ul class="nav navbar-nav navbar-right main-nav">
-                <li class="dropdown active">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                       aria-haspopup="true" aria-expanded="false">Home</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="index_1.html">Home 1</a></li>
-                        <li><a href="index_2.html">Home 2</a></li>
-                    </ul>
-                </li>
-                <li><a href="about.html">About us</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                       aria-haspopup="true" aria-expanded="false">Products</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="product_grid_sidebar.html">Product grid sidebar</a></li>
-                        <li><a href="product_list_sidebar.html">Product list sidebar</a></li>
-                        <li><a href="product_grid.html">Product grid</a></li>
-                        <li><a href="product_list.html">Product list</a></li>
-                        <li><a href="product_detail.html">Product detail</a></li>
-                        <li><a href="product_cart.html">Product cart</a></li>
-                        <li><a href="product_checkout.html">Product checkout</a></li>
-                        <li><a href="product_wishlist.html">Product wishlist</a></li>
-                        <li><a href="product_compare.html">Product compare</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                       aria-haspopup="true" aria-expanded="false">Blog</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="blog_detail.html">Blog detail</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                       aria-haspopup="true" aria-expanded="false">Pages</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="login.html">Login</a></li>
-                        <li><a href="register.html">Register</a></li>
-                        <li><a href="error_404.html">Error_404</a></li>
-                        <li><a href="contact.html">Contact us</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown m-menu-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Features
-                    <span><i class="fa fa-angle-down"></i></span></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <div class="m-menu-content">
-                                <ul class="col-sm-3">
-                                    <li class="dropdown-header">Widget Haeder</li>
-                                    <li><a href="#">Awesome Features</a></li>
-                                    <li><a href="#">Clean Interface</a></li>
-                                    <li><a href="#">Available Possibilities</a></li>
-                                    <li><a href="#">Responsive Design</a></li>
-                                    <li><a href="#">Pixel Perfect Graphics</a></li>
-                                </ul>
-                                <ul class="col-sm-3">
-                                    <li class="dropdown-header">Widget Haeder</li>
-                                    <li><a href="#">Awesome Features</a></li>
-                                    <li><a href="#">Clean Interface</a></li>
-                                    <li><a href="#">Available Possibilities</a></li>
-                                    <li><a href="#">Responsive Design</a></li>
-                                    <li><a href="#">Pixel Perfect Graphics</a></li>
-                                </ul>
-                                <ul class="col-sm-3">
-                                    <li class="dropdown-header">Widget Haeder</li>
-                                    <li><a href="#">Awesome Features</a></li>
-                                    <li><a href="#">Clean Interface</a></li>
-                                    <li><a href="#">Available Possibilities</a></li>
-                                    <li><a href="#">Responsive Design</a></li>
-                                    <li><a href="#">Pixel Perfect Graphics</a></li>
-                                </ul>
-                                <ul class="col-sm-3">
-                                    <li class="dropdown-header">Widget Haeder</li>
-                                    <li><a href="#">Awesome Features</a></li>
-                                    <li><a href="#">Clean Interface</a></li>
-                                    <li><a href="#">Available Possibilities</a></li>
-                                    <li><a href="#">Responsive Design</a></li>
-                                    <li><a href="#">Pixel Perfect Graphics</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
     </nav>
     <!-- .nav -->
 </div>
+
 <!-- Sideshow -->
 <div class="container m-t-30">
     <div class="slider color-inher">

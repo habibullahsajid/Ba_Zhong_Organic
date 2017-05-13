@@ -31,7 +31,7 @@
 }
 
 .ig-services .thumbnail {
-    border: 0;
+    border: 0px;
     padding: 0;
 }
 
@@ -51,6 +51,14 @@
 }
 
 .business-image {
+}
+
+.client-logos img {
+
+}
+
+.client-logos .col-md-2 {
+    display: inline-block;
 }
 
 .fix-height-305 {
