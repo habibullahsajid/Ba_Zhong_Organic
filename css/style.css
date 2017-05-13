@@ -104,7 +104,7 @@ section {
 }
 
 .bg-mn {
-    background: #82e629;
+    background: #0aab00;
 }
 
 /*////////////02. Header style ///////////*/
@@ -347,7 +347,7 @@ form {
 }
 
 .ht-pagination li.active a, .ht-pagination li.active a:hover, .ht-pagination li.active a:active, .ht-pagination li.active a:focus, .pagination li a:hover, .pagination li a:focus {
-    background: #82e629;
+    background: #0aab00;
     color: #fff;
     border-color: #4dce2e;
 }
@@ -574,11 +574,11 @@ h4.panel-title a.collapsed::after {
 
 .ht-tabs-product .nav-tabs li.active a, .ht-tabs-product .nav-tabs > li.active > a:hover, .ht-tabs-product ul .nav-tabs li.active a:hover, .ht-tabs-product .nav-tabs li.active a:focus, .ht-tabs-product .nav-tabs li a:hover {
     Background: none;
-    color: #82e629;
+    color: #0aab00;
 }
 
 .ht-tabs-product .nav-tabs li.active p, .ht-tabs-product .nav-tabs li:hover p {
-    border-color: #82e629;
+    border-color: #0aab00;
 }
 
 /*////////////15. Magnific-popup ///////////*/
@@ -801,7 +801,7 @@ img.mfp-img {
 }
 
 .slider-1 .heading-size-1 {
-    color: #82e629;
+    color: #0aab00;
 }
 
 .slider-1 .heading-size-3 {
@@ -1081,7 +1081,7 @@ img.mfp-img {
 /*////////////22. Product ///////////*/
 .product-item {
     margin-bottom: 30px;
-    background: #82e629;
+    background: #0aab00;
     border-radius: 0;
     border: 4px solid #054e00;
     -webkit-transition: all 0.5s ease;
@@ -1104,11 +1104,11 @@ img.mfp-img {
 
 .product-item .product-caption .product-name {
     font-size: 15px;
-    color: #333;
+    color: #35701f;
 }
 
 .product-item .product-caption .product-name a:hover {
-    color: #4dce2e;
+    color: #076700;
 }
 
 .product-item .rating li {
@@ -1129,9 +1129,9 @@ img.mfp-img {
     padding-left: 12px;
     padding-right: 12px;
     height: 35px;
-    border: 1px solid #eee;
+    border: 1px solid #054e00;
     display: inline-block;
-    color: #666;
+    color: #054e00;
     line-height: 34px;
     text-align: center;
     -webkit-transition: all 0.2s ease;
@@ -1142,8 +1142,8 @@ img.mfp-img {
 }
 
 .product-item .ht-btn-group a:hover {
-    border-color: #054e00;
-    color: #054e00;
+    border-color: rgba(10, 87, 3, 0.83);
+    color: rgba(10, 87, 3, 0.83);
 }
 
 .product-item .ht-btn-group .wishlist_btn, .product-item .ht-btn-group .compare_btn {
@@ -1255,7 +1255,7 @@ img.mfp-img {
 }
 
 .border-green {
-    border: 4px solid #82e629 !important;
+    border: 4px solid #0aab00 !important;
 }
 
 .product-bor .product-item {
@@ -1449,7 +1449,7 @@ img.mfp-img {
 
 /*////////////27. Newsletter ///////////*/
 .testimonials {
-    border: 25px solid #82e629;
+    border: 25px solid #0aab00;
     padding: 100px 80px;
 }
 
@@ -1778,7 +1778,7 @@ div.error_404 {
 }
 
 .bg-6 {
-    background-color: #82e629;
+    background-color: #0aab00;
     color: #fff;
 }
 
@@ -1831,7 +1831,7 @@ div.error_404 {
 }
 
 .border-color-6 {
-    border-color: #82e629 !important;
+    border-color: #0aab00 !important;
 }
 
 .border-color-7 {
@@ -2298,13 +2298,13 @@ BACK TO TOP
     position: fixed;
     bottom: 30px;
     right: 30px;
-    color: #82e629;
+    color: #0aab00;
     cursor: pointer;
     display: none;
     z-index: 9999;
     width: 30px;
     height: 30px;
-    border: 2px solid #82e629;
+    border: 2px solid #0aab00;
     text-align: center;
     font-size: 18px;
     line-height: 24px;
@@ -2312,7 +2312,7 @@ BACK TO TOP
 
 #toTop:hover {
     color: #ffffff;
-    background-color: #82e629;
+    background-color: #0aab00;
     border: 1px solid transparent;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
