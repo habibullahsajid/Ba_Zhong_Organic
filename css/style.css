@@ -6,7 +6,7 @@
 
 a, a:hover, a:active, a:focus {
     text-decoration: none;
-    color: #333;
+    color: rgba(145, 145, 145, 0.76);
 }
 
 a, button, input, textarea, checkbox, radio, select {
@@ -2969,8 +2969,8 @@ service-icon-style
 
 .footer .footer-block {
     border-right: 1px solid #3a3a3a;
-    padding: 80px 60px;
-    min-height: 380px;
+    padding: 30px 30px;
+    min-height: 300px;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -3003,7 +3003,12 @@ service-icon-style
     margin-bottom: 25px;
 }
 
-.footer .widget_text {
+.footer .widget_text a{
+    color: #0aab00;
+}
+
+.footer .widget_text a:hover{
+    color: #0bd400;
 }
 
 .footer .footer-logo {
@@ -3079,10 +3084,6 @@ service-icon-style
 .footer .copyright-section li a:hover,
 .footer .copyright-section li.active a {
     color: #ffffff;
-}
-
-a:hover {
-    color: rgba(206, 206, 206, 0.19);
 }
 
 .hideoverflow {
