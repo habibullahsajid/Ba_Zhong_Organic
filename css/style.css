@@ -158,41 +158,6 @@ section {
     border-color: #4dce2e;
 }
 
-/*////////////03. Search ///////////*/
-.search-box {
-    position: relative;
-    margin: 10px;
-}
-
-.search-box .form-item {
-    border: none;
-    padding: 0 45px 0 20px;
-    color: #333;
-    background: #fff;
-    border-radius: 0;
-    height: 45px;
-    width: 100%;
-    margin-bottom: 0;
-}
-
-.search-box .form-item:focus, .search-box .form-item:active {
-    border: inherit;
-}
-
-.search-box button {
-    background: #4dce2e;
-    border: none;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 999;
-    height: 45px;
-    width: 50px;
-    line-height: 45px;
-    color: #fff;
-    text-align: center;
-}
-
 /*////////////04. Category ///////////*/
 .category {
     margin-bottom: 30px;
@@ -1367,92 +1332,6 @@ img.mfp-img {
 .box {
     box-shadow: 1px 1px 2px 0 #ddd;
     padding: 30px;
-}
-
-/*////////////23. Cart ///////////*/
-.cart {
-    text-align: center;
-    cursor: pointer;
-    z-index: 999;
-    background: #fff;
-    border: 2px solid #eee;
-}
-
-.cart .cart-item {
-    cursor: pointer;
-    display: inline-block;
-    width: 45px;
-    height: 41px;
-}
-
-.cart .cart-item > span {
-    padding: 3px 5px;
-    line-height: 0.9;
-    display: inline-block;
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    background-color: #fff;
-    border: 3px solid #fff;
-}
-
-.cart .product-name {
-    font-size: 16px;
-    padding-top: 0;
-    padding-bottom: 10px;
-}
-
-.cart .dropdown-menu {
-    min-width: 280px;
-}
-
-.cart .dropdown-menu li {
-    border-bottom: 1px solid #eee;
-    padding-top: 10px;
-}
-
-.cart .dropdown-menu li span {
-    color: #999;
-}
-
-.cart .dropdown-menu li ul li {
-    padding-top: 0;
-    border: none;
-}
-
-.cart .dropdown-menu li .col {
-    min-height: 40px;
-    line-height: 40px;
-    text-align: left;
-}
-
-.cart .cart-item > i {
-    font-size: 20px;
-    color: #555;
-    line-height: 40px;
-}
-
-.cart ul li i {
-    background: #eee;
-    padding: 4px 5px;
-    color: #333;
-    font-size: 13px;
-    float: right;
-    border-radius: 4px;
-}
-
-.cart strong {
-    font-weight: 500;
-}
-
-.cart-1 {
-    border: none;
-}
-
-.cart-1 .cart-item {
-    height: 70px;
-    line-height: 70px;
-    width: 70px;
 }
 
 .search-box-1 button {
