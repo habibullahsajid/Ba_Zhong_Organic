@@ -2326,6 +2326,10 @@ BACK TO TOP
         display: none !important;
     }
 
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
     .navbar-default {
         background: #4a4a4a !important;
         padding: 10px 0;
@@ -2970,7 +2974,7 @@ service-icon-style
 .footer .footer-block {
     border-right: 1px solid #3a3a3a;
     padding: 30px 30px;
-    min-height: 300px;
+    min-height: 390px;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
